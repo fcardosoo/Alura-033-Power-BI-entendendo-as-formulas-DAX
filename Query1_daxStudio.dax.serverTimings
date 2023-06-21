@@ -1,0 +1,8 @@
+{
+  "FileFormatVersion": 5,
+  "ActivityID": "D8E6D1FB-534F-4426-B3B3-40766D599327",
+  "StorageEngineEvents": [],
+  "QueryEndDateTime": "2023-06-21T16:46:26.535333-03:00",
+  "QueryStartDateTime": "2023-06-21T16:46:26.533333-03:00",
+  "CommandText": "EVALUATE\n// VALUES(Tb_Vendedores)\n\nROW (\n    \"Total vendas\", SUMX ( Tb_ItensNotas, [Quantidade] * [Preço] )\n)"
+}
