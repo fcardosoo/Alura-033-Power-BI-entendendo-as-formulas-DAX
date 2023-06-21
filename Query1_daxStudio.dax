@@ -1,0 +1,6 @@
+﻿EVALUATE
+// VALUES(Tb_Vendedores)
+
+ROW (
+    "Total vendas", SUMX ( Tb_ItensNotas, [Quantidade] * [Preço] )
+)
